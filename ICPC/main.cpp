@@ -26,6 +26,7 @@ int solve1011(int lastvel, int x, int y)
 	{
 		if (lastvel == 1)
 			return 1;
+
 		else
 			return MAX;
 	}
