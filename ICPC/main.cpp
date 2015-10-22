@@ -7,6 +7,7 @@ int MAX = INT32_MAX;
 unsigned int solve1010(int a, int b)
 {
 	//added comment by desktop
+	//second added comment by desktop
 	if (a == 2)
 		return b + 1;
 	if (a == 1)
