@@ -15,6 +15,7 @@ unsigned int solve1010(int a, int b)
 	unsigned int result = 0;
 	for (int i = 0; i <= b; i++)
 		result += solve1010(a - 1, i);
+
 	return result;
 }
 
