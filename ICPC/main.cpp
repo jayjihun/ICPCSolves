@@ -52,7 +52,7 @@ int solve1010(int a, int b)
 
 int solve1011(int lastvel, int x, int y)
 {//y까지 가기 위해서 지금 x에 있고 여기까지 lastvel로 왔을 때에, y로 가기 위해 걸리는 턴 수.
-	
+	return 1;
 
 }
 
@@ -150,14 +150,16 @@ void prob1010()
 //=========================Problems===========================
 
 
+void prob01()
+{
+
+}
 
 
 int main()
 {
 	int t;
 	cin >> t;
-	for (int i = 0;i < t; i++)
-	{
-		prob1011();
-	}
+	for (int i = 0; i < t; i++)
+		prob01();
 }
